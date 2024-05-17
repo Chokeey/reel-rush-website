@@ -30,14 +30,7 @@ header p {
 
 .video-sample {
     width: 18%;
-    height: 150px;
-    background-color: #000;
-    color: #fff;
     margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1em;
 }
 
 .call-to-action {
@@ -56,6 +49,20 @@ header p {
 }
 
 .email-capture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.email-capture input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.email-capture button {
     padding: 10px 20px;
     font-size: 1em;
     background-color: #000;
@@ -74,7 +81,24 @@ header p {
     font-size: 1em;
 }
 
-.contract-form {
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.contact-form button {
     padding: 10px 20px;
     font-size: 1em;
     background-color: #000;
@@ -88,4 +112,3 @@ footer {
     background-color: #000;
     color: #fff;
 }
-
