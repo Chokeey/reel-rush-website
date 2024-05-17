@@ -12,25 +12,47 @@
         <p>The best AI content creation tool on the market. Able to generate unlimited AI videos with captions, audio, photos all edited under ~1 Minute.</p>
     </header>
     <section class="video-samples">
-        <div class="video-sample">VIDEO SAMPLE</div>
-        <div class="video-sample">VIDEO SAMPLE</div>
-        <div class="video-sample">VIDEO SAMPLE</div>
-        <div class="video-sample">VIDEO SAMPLE</div>
-        <div class="video-sample">VIDEO SAMPLE</div>
+        <video class="video-sample" controls>
+            <source src="sample1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video class="video-sample" controls>
+            <source src="sample2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video class="video-sample" controls>
+            <source src="sample3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video class="video-sample" controls>
+            <source src="sample4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video class="video-sample" controls>
+            <source src="sample5.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </section>
     <section class="call-to-action">
         <h2>Be a part of the new world of AI content.</h2>
         <p>Get notified on your release and stay up to date with all the new features to come.</p>
-        <button class="email-capture">EMAIL CAPTURE</button>
+        <form class="email-capture" action="subscribe.php" method="post">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Submit</button>
+        </form>
     </section>
     <section class="contact">
         <p>Have something to say?</p>
         <p>Reel Rush is just one message away.</p>
-        <button class="contract-form">CONTRACT FORM</button>
+        <form class="contact-form" action="contact.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
     </section>
     <footer>
         <p>footer menu</p>
     </footer>
 </body>
 </html>
-
